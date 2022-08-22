@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+
+<html  dir="ltr" lang="en" xml:lang="en">
+<head>
+    <title>INFO1201-S20: ProspectiveStudentData.csv</title>
+    <link rel="shortcut icon" href="//moodle.cs.colorado.edu/pluginfile.php/1/theme_remui/faviconurl/1582816220/favicon.png" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, INFO1201-S20: ProspectiveStudentData.csv" />
+<link rel="stylesheet" type="text/css" href="https://moodle.cs.colorado.edu/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://moodle.cs.colorado.edu/theme/styles.php/remui/1582816220_1577740404/all" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/moodle.cs.colorado.edu","sesskey":"ktU76j7adQ","themerev":"1582816220","slasharguments":1,"theme":"remui","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1577740574","admin":"admin","svgicons":true,"usertimezone":"America\/Denver","contextid":216525};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/moodle.cs.colorado.edu\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/moodle.cs.colorado.edu\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/moodle.cs.colorado.edu\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/moodle.cs.colorado.edu\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/moodle.cs.colorado.edu\/theme\/yui_combo.php?m\/1577740574\/","combine":true,"comboBase":"https:\/\/moodle.cs.colorado.edu\/theme\/yui_combo.php?","ext":false,"root":"m\/1577740574\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_stack-input":{"requires":["node","event-valuechange","moodle-core-event","io","json-parse"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_attendance-groupfilter":{"requires":["base","node"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_scheduler-saveseen":{"requires":["base","node","event"]},"moodle-mod_scheduler-delselected":{"requires":["base","node","event"]},"moodle-mod_scheduler-studentlist":{"requires":["base","node","event","io"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-beautify":{},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_sketch-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/moodle.cs.colorado.edu\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/moodle.cs.colorado.edu\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1577740574\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/moodle.cs.colorado.edu\/lib\/javascript.php\/1577740574\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/moodle.cs.colorado.edu\/lib\/javascript.php\/1577740574\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.2\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+<meta name="google-site-verification" content="C83pjr3ur8Ul-UsL6nCxI7OCcivVQdHZMoX0Ju5rtCM" /><link href='https://fonts.googleapis.com/css?family=Open Sans:300,400,500,600,700,300italic' rel='stylesheet'
+        type='text/css'><!-- Google Analytics --><script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new
+        Date;ga('create', 'UA-21564981-2', 'auto');ga('send', 'pageview');</script><script async src='https://www.google-analytics.com/
+        analytics.js'></script><!-- End Google Analytics -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body  id="page-mod-resource-view" class="format-weeks  path-mod path-mod-resource chrome dir-ltr lang-en yui-skin-sam yui3-skin-sam moodle-cs-colorado-edu pagelayout-incourse course-1294 context-216525 cmid-47188 category-15 ">
+
+<nav class="fixed-top navbar navbar-light nav-inverse  navbar-expand moodle-has-zindex p-0" aria-label="Site navigation">
+    <div class="navbar-brand navbar-brand-center p-0 m-0 h-100">
+            <a class="text-white d-flex align-items-center justify-content-center h-100 w-full text-decoration-none" href="https://moodle.cs.colorado.edu">
+                <span class="navbar-brand-logo mini"><i class="fa fa-graduation-cap"></i></span>
+                <span class="navbar-brand-logo font-weight-bold">
+                    <i class="fa fa-graduation-cap"></i>&nbsp;
+                    CS-Moodle
+                </span>
+            </a>
+            
+    </div>
+    <div data-region="drawer-toggle" class="d-inline-block m-0 h-100">
+        <button aria-expanded="false" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left  bg-transparent" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="icon fa fa-bars fa-fw " aria-hidden="true"  ></i><span class="sr-only">Side panel</span></button>
+    </div>
+    <div class="nav-item" id="toggleFullscreen" title="Toggle fullscreen">
+        <a class="nav-link icon m-0 px-3" data-toggle="fullscreen" href="#" role="button">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="expand" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-expand fa-w-14 fa-3x"><path fill="currentColor" d="M0 180V56c0-13.3 10.7-24 24-24h124c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H64v84c0 6.6-5.4 12-12 12H12c-6.6 0-12-5.4-12-12zM288 44v40c0 6.6 5.4 12 12 12h84v84c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12V56c0-13.3-10.7-24-24-24H300c-6.6 0-12 5.4-12 12zm148 276h-40c-6.6 0-12 5.4-12 12v84h-84c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h124c13.3 0 24-10.7 24-24V332c0-6.6-5.4-12-12-12zM160 468v-40c0-6.6-5.4-12-12-12H64v-84c0-6.6-5.4-12-12-12H12c-6.6 0-12 5.4-12 12v124c0 13.3 10.7 24 24 24h124c6.6 0 12-5.4 12-12z" class=""></path></svg>
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="compress" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-compress fa-w-14 fa-3x"><path fill="currentColor" d="M436 192H312c-13.3 0-24-10.7-24-24V44c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v84h84c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm-276-24V44c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v84H12c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h124c13.3 0 24-10.7 24-24zm0 300V344c0-13.3-10.7-24-24-24H12c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h84v84c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-84h84c6.6 0 12-5.4 12-12v-40c0-6.6-5.4-12-12-12H312c-13.3 0-24 10.7-24 24v124c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12z" class=""></path></svg>
+        </a>
+    </div>
+    <ul class="navbar-nav d-none d-md-flex h-100 wdm-custom-menus">
+        <!-- custom_menu -->
+        <li class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-5eac45bf7b04b5eac45bf797362" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" aria-controls="drop-down-menu-5eac45bf7b04b5eac45bf797362">
+        CU
+    </a>
+    <div class="dropdown-menu" role="menu" id="drop-down-menu-5eac45bf7b04b5eac45bf797362" aria-labelledby="drop-down-5eac45bf7b04b5eac45bf797362">
+                <a class="dropdown-item" role="menuitem" href="http://engineering.colorado.edu" title="Engineering">Engineering</a>
+                <a class="dropdown-item" role="menuitem" href="https://www.cs.colorado.edu" title="Computer Science">Computer Science</a>
+    </div>
+</li><li class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-5eac45bf7b0a35eac45bf797363" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" aria-controls="drop-down-menu-5eac45bf7b0a35eac45bf797363">
+        Schedules
+    </a>
+    <div class="dropdown-menu" role="menu" id="drop-down-menu-5eac45bf7b0a35eac45bf797363" aria-labelledby="drop-down-5eac45bf7b0a35eac45bf797363">
+                <a class="dropdown-item" role="menuitem" href="https://www.colorado.edu/cs/current-students/courses" title="Courses">Courses</a>
+                <a class="dropdown-item" role="menuitem" href="https://www.colorado.edu/academics/academic-calendar" title="Academic Calendar">Academic Calendar</a>
+    </div>
+</li>
+        <!-- page_heading_menu -->
+        
+        <li class="nav-item dropdown wdm-ofdd">
+            <a class="dropdown-toggle nav-link" id="ofmenu" data-toggle="dropdown">
+                <span><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span>
+            </a>
+            <div class="dropdown-menu ofdropdownmenu" aria-labelledby="ofmenu">
+            </div>
+        </li>
+    </ul>
+    <button type="button" class="navbar-toggler">
+        <i class="icon fa fa-ellipsis-v" aria-hidden="true"></i>
+    </button>
+    <ul class="nav navbar-nav ml-auto mr-2 h-100 right-menu">
+        <div class="d-none d-lg-block">
+        
+        </div>
+        <!-- navbar_plugin_output : 'message', 'notifications' and 'chat sidebar' toggles -->
+        <li class="nav-item">
+        <div class="popover-region collapsed popover-region-notifications nav-item m-0 dropdown"
+    id="nav-notification-popover-container" data-userid="8961"
+    data-region="popover-region">
+    <div class="popover-region-toggle nav-link"
+        data-toggle="dropdown"
+        data-region="popover-region-toggle"
+        aria-role="button"
+        aria-controls="popover-region-container-5eac45bf7c0625eac45bf797364"
+        aria-haspopup="true"
+        aria-label="Show notification window with no new notifications"
+        tabindex="0">
+                <i class="icon fa fa-bell fa-fw "  title="Toggle notifications menu" aria-label="Toggle notifications menu"></i>
+        <div class="count-container hidden" data-region="count-container"
+        aria-label="There are 0 unread notifications">0</div>
+
+    </div>
+    <div 
+        id="popover-region-container-5eac45bf7c0625eac45bf797364"
+        class="dropdown-menu dropdown-menu-right dropdown-menu-media p-0"
+        data-region="popover-region-container"
+        aria-expanded="false"
+        aria-hidden="true"
+        aria-label="Notification window"
+        role="region">
+        <div class="popover-region-header-container d-flex h-auto p-3 justify-content-between">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Notifications</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <a class="mark-all-read-button"
+           href="#"
+           title="Mark all as read"
+           data-action="mark-all-read"
+           role="button">
+            <span class="normal-icon"><i class="icon fa fa-check fa-fw "  title="Mark all as read" aria-label="Mark all as read"></i></span>
+            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Loading" aria-label="Loading"></i></span>
+        </a>
+        <a href="https://moodle.cs.colorado.edu/message/notificationpreferences.php?userid=8961"
+           title="Notification preferences">
+            <i class="icon fa fa-cog fa-fw "  title="Notification preferences" aria-label="Notification preferences"></i>
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" style="min-height: 200px;" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="all-notifications"
+            data-region="all-notifications"
+            role="log"
+            aria-busy="false"
+            aria-atomic="false"
+            aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">You have no notifications</div>
+
+            </div>
+            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Loading" aria-label="Loading"></i></span>
+        </div>
+                <a class="see-all-link d-flex p-2 justify-content-center border-top"
+                    href="https://moodle.cs.colorado.edu/message/output/popup/notifications.php">
+                    <div class="popover-region-footer-container border-0">
+                        <div class="popover-region-seeall-text">See all</div>
+                    </div>
+                </a>
+    </div>
+</div>
+        </li>
+        <!-- user_menu -->
+        <li class="nav-item d-flex align-items-center">
+            <div class="usermenu nav-item dropdown user-menu login-menu"><a class="nav-link navbar-avatar" data-toggle="dropdown" href="#"
+            aria-expanded="false" data-animation="scale-up" role="button">
+            <span class="username pr-1">Jack Driscoll</span>
+            <span class="avatar avatar-online current">
+            <img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/u/f2" class="userpicture defaultuserpic" width="35" height="35" role="presentation" aria-hidden="true" />
+            <i style="border-color: white;"></i>
+            </span>
+        </a><div class="dropdown-menu  dropdown-menu-right" role="menu"><a class="dropdown-item" href="https://moodle.cs.colorado.edu/my/" role="menuitem"><i class="icon fa fa-tachometer fa-fw iconsmall" aria-hidden="true" title="Dashboard" ></i>Dashboard</a><div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" href="https://moodle.cs.colorado.edu/user/profile.php?id=8961" role="menuitem"><i class="icon fa fa-user fa-fw iconsmall" aria-hidden="true" title="Profile" ></i>Profile</a><a class="dropdown-item" href="https://moodle.cs.colorado.edu/grade/report/overview/index.php" role="menuitem"><i class="icon fa fa-table fa-fw iconsmall" aria-hidden="true" title="Grades" ></i>Grades</a><a class="dropdown-item" href="https://moodle.cs.colorado.edu/message/index.php" role="menuitem"><i class="icon fa fa-comment fa-fw iconsmall" aria-hidden="true" title="Messages" ></i>Messages</a><a class="dropdown-item" href="https://moodle.cs.colorado.edu/user/preferences.php" role="menuitem"><i class="icon fa fa-wrench fa-fw iconsmall" aria-hidden="true" title="Preferences" ></i>Preferences</a><div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" href="https://moodle.cs.colorado.edu/login/logout.php?sesskey=ktU76j7adQ" role="menuitem"><i class="icon fa fa-sign-out fa-fw iconsmall" aria-hidden="true" title="Log out" ></i>Log out</a></div></div>
+        </li>
+    </ul>
+    <!-- search_box -->
+</nav>
+
+
+<div id="nav-drawer" data-region="drawer" class="d-print-none moodle-has-zindex closed dark" aria-hidden="true" tabindex="-1">
+    <div id="nav-drawer-container">
+        
+        <nav class="list-group" id="activity-nav">
+            <a href="https://moodle.cs.colorado.edu/course/view.php?id=1294" class="list-group-item text-decoration-none">
+                <div class="ml-0">
+                    <div class="media">
+                        <span class="media-left backtocourse">
+                            <i class="icon fa fa-chevron-left" aria-hidden="true"></i>
+                        </span>
+                        <span class="media-body">Course Overview</span>
+                    </div>
+                </div>
+            </a>
+            <p class="text-uppercase my-2 text-center font-size-10 section-heading">Sections</p>
+                <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none " data-toggle="collapse" data-target="#activity-submenu-1">
+                    <div class="ml-0">
+                        <div class="media">
+                            <span class="media-body">General<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                            <span class="media-left">
+                                1
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <ul class="collapse p-0  sub-menu m-0" id="activity-submenu-1" data-parent="#activiy-nav">
+                        <li class="list-group-item activity    p-0" title="Announcements">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/forum/view.php?id=45166"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/forum/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Announcements<span class="accesshide " > Forum</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="1201Syllabus-Spring2020">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=45348"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">1201Syllabus-Spring2020<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Office Hours and Interview Grading Calendar">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/url/view.php?id=45354"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/url/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Office Hours and Interview Grading Calendar<span class="accesshide " > URL</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Lecture Recordings">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/url/view.php?id=45685"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/url/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Lecture Recordings<span class="accesshide " > URL</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Lecture Recordings from Fall 2019">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/url/view.php?id=47139"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/url/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Lecture Recordings from Fall 2019<span class="accesshide " > URL</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Download and Upload Files in Jupyter">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=45696"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Download and Upload Files in Jupyter</span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Computational Reasoning - Wk1-4">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46329"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Computational Reasoning - Wk1-4<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Computational Reasoning - Wk5-6">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46330"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Computational Reasoning - Wk5-6<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Computational Reasoning - Wk7-8">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=47006"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Computational Reasoning - Wk7-8<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Computational Reasoning - Wk9-12">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=47005"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Computational Reasoning - Wk9-12<span class="accesshide " > File</span></span></a>
+                        </li>
+                </ul>
+                <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none " data-toggle="collapse" data-target="#activity-submenu-2">
+                    <div class="ml-0">
+                        <div class="media">
+                            <span class="media-body">13 January - 19 January<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                            <span class="media-left">
+                                2
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <ul class="collapse p-0  sub-menu m-0" id="activity-submenu-2" data-parent="#activiy-nav">
+                        <li class="list-group-item activity    p-0" title="Class2-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=45695"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class2-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Class2-3-Notes">
+                          
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Lab 1">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=45349"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Lab 1<span class="accesshide " > File</span></span></a>
+                        </li>
+                </ul>
+                <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none " data-toggle="collapse" data-target="#activity-submenu-3">
+                    <div class="ml-0">
+                        <div class="media">
+                            <span class="media-body">20 January - 26 January<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                            <span class="media-left">
+                                3
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <ul class="collapse p-0  sub-menu m-0" id="activity-submenu-3" data-parent="#activiy-nav">
+                        <li class="list-group-item activity    p-0" title="Class Start Questionnaire">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/url/view.php?id=45740"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/url/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class Start Questionnaire<span class="accesshide " > URL</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Python Pretest">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=45739"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Python Pretest<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Class2-3-4-5-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=45790"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class2-3-4-5-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 1 WRITEUP">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=45727"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 1 WRITEUP<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 1 SUBMISSION">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=45728"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 1 SUBMISSION<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 1 INTERVIEW GRADING TESTING">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=45967"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 1 INTERVIEW GRADING TESTING<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 1 LATE WORK">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=45966"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 1 LATE WORK<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 1 INTERVIEW GRADING SCORE">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/assign/view.php?id=45969"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/assign/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 1 INTERVIEW GRADING SCORE<span class="accesshide " > Assignment</span></span></a>
+                        </li>
+                </ul>
+                <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none " data-toggle="collapse" data-target="#activity-submenu-4">
+                    <div class="ml-0">
+                        <div class="media">
+                            <span class="media-body">27 January - 2 February<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                            <span class="media-left">
+                                4
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <ul class="collapse p-0  sub-menu m-0" id="activity-submenu-4" data-parent="#activiy-nav">
+                        <li class="list-group-item activity    p-0" title="Practice Problems">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=45909"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Practice Problems<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Class6-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=45886"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class6-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Class8-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=45917"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class8-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Lab Week 3 Jupyter Notebook">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=45835"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Lab Week 3 Jupyter Notebook<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Lab Week 3 Participation">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/assign/view.php?id=45834"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/assign/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Lab Week 3 Participation<span class="accesshide " > Assignment</span></span></a>
+                        </li>
+                </ul>
+                <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none " data-toggle="collapse" data-target="#activity-submenu-5">
+                    <div class="ml-0">
+                        <div class="media">
+                            <span class="media-body">3 February - 9 February<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                            <span class="media-left">
+                                5
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <ul class="collapse p-0  sub-menu m-0" id="activity-submenu-5" data-parent="#activiy-nav">
+                        <li class="list-group-item activity    p-0" title="Class9-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=45949"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class9-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Class10-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46034"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class10-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Lab Week 4 Participation">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/assign/view.php?id=45916"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/assign/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Lab Week 4 Participation<span class="accesshide " > Assignment</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Lab Week 4 Jupyter Notebook">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=45915"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Lab Week 4 Jupyter Notebook<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 2 WRITEUP">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46000"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 2 WRITEUP<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 2 SUBMISSION">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=46001"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 2 SUBMISSION<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 2 INTERVIEW GRADING TESTING">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=46161"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 2 INTERVIEW GRADING TESTING<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 2 SUBMISSION LATE WORK">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=46162"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 2 SUBMISSION LATE WORK<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 2 INTERVIEW GRADING SCORE">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/assign/view.php?id=46160"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/assign/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 2 INTERVIEW GRADING SCORE<span class="accesshide " > Assignment</span></span></a>
+                        </li>
+                </ul>
+                <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none " data-toggle="collapse" data-target="#activity-submenu-6">
+                    <div class="ml-0">
+                        <div class="media">
+                            <span class="media-body">10 February - 16 February<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                            <span class="media-left">
+                                6
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <ul class="collapse p-0  sub-menu m-0" id="activity-submenu-6" data-parent="#activiy-nav">
+                        <li class="list-group-item activity    p-0" title="Class12-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46066"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class12-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Class13-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46091"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class13-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Class14-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46199"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class14-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Lab Week 5 Participation">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/assign/view.php?id=46040"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/assign/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Lab Week 5 Participation<span class="accesshide " > Assignment</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Lab Week 5 Jupyter Notebook">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46041"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Lab Week 5 Jupyter Notebook<span class="accesshide " > File</span></span></a>
+                        </li>
+                </ul>
+                <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none " data-toggle="collapse" data-target="#activity-submenu-7">
+                    <div class="ml-0">
+                        <div class="media">
+                            <span class="media-body">17 February - 23 February<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                            <span class="media-left">
+                                7
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <ul class="collapse p-0  sub-menu m-0" id="activity-submenu-7" data-parent="#activiy-nav">
+                        <li class="list-group-item activity    p-0" title="Class15-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46200"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class15-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Class15-16-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46386"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class15-16-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Lab Week 6 Participation">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/assign/view.php?id=46157"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/assign/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Lab Week 6 Participation<span class="accesshide " > Assignment</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Lab Week 6 Jupyter Notebook">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46159"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Lab Week 6 Jupyter Notebook<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 3 WRITEUP">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46155"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 3 WRITEUP<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 3 SUBMISSION">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=46133"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 3 SUBMISSION<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework3-ExpectedAnswers">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46212"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework3-ExpectedAnswers<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 3 INTERVIEW GRADING TESTING">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=46363"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 3 INTERVIEW GRADING TESTING<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 3 INTERVIEW GRADING SCORE">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=46364"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 3 INTERVIEW GRADING SCORE<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 3 SUBMISSION LATE WORK">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=46365"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 3 SUBMISSION LATE WORK<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                </ul>
+                <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none " data-toggle="collapse" data-target="#activity-submenu-8">
+                    <div class="ml-0">
+                        <div class="media">
+                            <span class="media-body">24 February - 1 March<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                            <span class="media-left">
+                                8
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <ul class="collapse p-0  sub-menu m-0" id="activity-submenu-8" data-parent="#activiy-nav">
+                        <li class="list-group-item activity    p-0" title="Class17-18-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46334"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class17-18-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Class19-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46335"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class19-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Class20-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46387"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class20-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="TATAATInstructions">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46331"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">TATAATInstructions<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Lab Week 7 Participation">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/assign/view.php?id=46270"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/assign/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Lab Week 7 Participation<span class="accesshide " > Assignment</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Lab Week 7 Jupyter Notebook">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46273"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Lab Week 7 Jupyter Notebook<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 4 WRITEUP">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46272"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 4 WRITEUP<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 4 SUBMISSION">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=46283"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 4 SUBMISSION<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 4 INTERVIEW GRADING TESTING">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=46344"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 4 INTERVIEW GRADING TESTING<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 4 INTERVIEW GRADING SCORE">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=46357"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 4 INTERVIEW GRADING SCORE<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 4 SUBMISSION LATE WORK">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=46343"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 4 SUBMISSION LATE WORK<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                </ul>
+                <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none " data-toggle="collapse" data-target="#activity-submenu-9">
+                    <div class="ml-0">
+                        <div class="media">
+                            <span class="media-body">2 March - 8 March<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                            <span class="media-left">
+                                9
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <ul class="collapse p-0  sub-menu m-0" id="activity-submenu-9" data-parent="#activiy-nav">
+                        <li class="list-group-item activity    p-0" title="Class21-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46388"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class21-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Class21-22-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46400"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class21-22-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Class21-22-23-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46415"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class21-22-23-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Lab Week 8 Participation">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/assign/view.php?id=46360"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/assign/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Lab Week 8 Participation<span class="accesshide " > Assignment</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Lab Week 8 Jupyter Notebook">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46359"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Lab Week 8 Jupyter Notebook<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Teach Dianna a Thing ">
+                          <div class=" dimmed dimmed_text"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/scheduler/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Teach Dianna a Thing <span class="accesshide " > Scheduler</span></span></div>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Teach Shamika A Thing">
+                          <div class=" dimmed dimmed_text"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/scheduler/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Teach Shamika A Thing<span class="accesshide " > Scheduler</span></span></div>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Teach Shanel a Thing">
+                          <div class=" dimmed dimmed_text"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/scheduler/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Teach Shanel a Thing<span class="accesshide " > Scheduler</span></span></div>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Teach Shiva a Thing">
+                          <div class=" dimmed dimmed_text"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/scheduler/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Teach Shiva a Thing<span class="accesshide " > Scheduler</span></span></div>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Teach Hande a Thing">
+                          <div class=" dimmed dimmed_text"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/scheduler/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Teach Hande a Thing<span class="accesshide " > Scheduler</span></span></div>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Teach Janet A Thing">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/scheduler/view.php?id=46341"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/scheduler/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Teach Janet A Thing<span class="accesshide " > Scheduler</span></span></a>
+                        </li>
+                </ul>
+                <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none " data-toggle="collapse" data-target="#activity-submenu-10">
+                    <div class="ml-0">
+                        <div class="media">
+                            <span class="media-body">9 March - 15 March<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                            <span class="media-left">
+                                10
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <ul class="collapse p-0  sub-menu m-0" id="activity-submenu-10" data-parent="#activiy-nav">
+                        <li class="list-group-item activity    p-0" title="Class24-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46441"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class24-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Class25-TwitterAnalysis-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46465"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class25-TwitterAnalysis-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Lab Week 9 Participation">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/assign/view.php?id=46430"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/assign/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Lab Week 9 Participation<span class="accesshide " > Assignment</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Lab Week 9 Jupyter Notebook">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46429"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Lab Week 9 Jupyter Notebook<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 5 WRITEUP">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46414"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 5 WRITEUP<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 5 SUBMISSION">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=46406"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 5 SUBMISSION<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 5 INTERVIEW GRADING TESTING">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=46420"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 5 INTERVIEW GRADING TESTING<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 5 SUBMISSION CORONA EXTENSION">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=46421"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 5 SUBMISSION CORONA EXTENSION<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 5 INTERVIEW GRADING SCORE">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/assign/view.php?id=46427"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/assign/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 5 INTERVIEW GRADING SCORE<span class="accesshide " > Assignment</span></span></a>
+                        </li>
+                </ul>
+                <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none " data-toggle="collapse" data-target="#activity-submenu-11">
+                    <div class="ml-0">
+                        <div class="media">
+                            <span class="media-body">16 March - 22 March<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                            <span class="media-left">
+                                11
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <ul class="collapse p-0  sub-menu m-0" id="activity-submenu-11" data-parent="#activiy-nav">
+                        <li class="list-group-item activity    p-0" title="Class25-27-TwitterAnalysis-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46578"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class25-27-TwitterAnalysis-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Class25-27-28-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46611"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class25-27-28-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Lab Week 10 Participation">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/assign/view.php?id=46566"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/assign/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Lab Week 10 Participation<span class="accesshide " > Assignment</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Lab Week 10 Jupyter Notebook">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46565"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Lab Week 10 Jupyter Notebook<span class="accesshide " > File</span></span></a>
+                        </li>
+                </ul>
+                <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none " data-toggle="collapse" data-target="#activity-submenu-12">
+                    <div class="ml-0">
+                        <div class="media">
+                            <span class="media-body">23 March - 29 March<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                            <span class="media-left">
+                                12
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <ul class="collapse p-0  sub-menu m-0" id="activity-submenu-12" data-parent="#activiy-nav">
+                </ul>
+                <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none " data-toggle="collapse" data-target="#activity-submenu-13">
+                    <div class="ml-0">
+                        <div class="media">
+                            <span class="media-body">30 March - 5 April<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                            <span class="media-left">
+                                13
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <ul class="collapse p-0  sub-menu m-0" id="activity-submenu-13" data-parent="#activiy-nav">
+                        <li class="list-group-item activity    p-0" title="somebeatleslyrics.txt">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46697"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/text-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">somebeatleslyrics.txt<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Class30-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46731"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class30-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Class30-31-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46768"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class30-31-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="RollingStoneAlbumList.csv">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46769"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/spreadsheet-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">RollingStoneAlbumList.csv<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Class32-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46828"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class32-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Lab Week 12 Participation">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/assign/view.php?id=46706"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/assign/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Lab Week 12 Participation<span class="accesshide " > Assignment</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="All Files for Lab Week 12">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/folder/view.php?id=46711"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/folder/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">All Files for Lab Week 12<span class="accesshide " > Folder</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 6 WRITEUP">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46716"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 6 WRITEUP<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 6 SUBMISSION">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=46707"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 6 SUBMISSION<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 6 SUBMISSION LATE WORK">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=46709"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 6 SUBMISSION LATE WORK<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 6 INTERVIEW GRADING TESTING">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=46710"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 6 INTERVIEW GRADING TESTING<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 6 INTERVIEW GRADING SCORE">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/assign/view.php?id=47067"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/assign/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 6 INTERVIEW GRADING SCORE<span class="accesshide " > Assignment</span></span></a>
+                        </li>
+                </ul>
+                <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none " data-toggle="collapse" data-target="#activity-submenu-14">
+                    <div class="ml-0">
+                        <div class="media">
+                            <span class="media-body">6 April - 12 April<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                            <span class="media-left">
+                                14
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <ul class="collapse p-0  sub-menu m-0" id="activity-submenu-14" data-parent="#activiy-nav">
+                        <li class="list-group-item activity    p-0" title="Class32-33-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46878"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class32-33-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Class34-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46979"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class34-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Class34-35-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=47016"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class34-35-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="All Files for Lab Week 13">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/folder/view.php?id=46847"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/folder/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">All Files for Lab Week 13<span class="accesshide " > Folder</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Lab Week 13 Participation">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/assign/view.php?id=46862"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/assign/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Lab Week 13 Participation<span class="accesshide " > Assignment</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 7 WRITEUP">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=46918"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 7 WRITEUP<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 7 SUBMISSION">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=46914"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 7 SUBMISSION<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 7 SUBMISSION LATE WORK">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=46915"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 7 SUBMISSION LATE WORK<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 7 INTERVIEW GRADING TESTING">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=46916"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 7 INTERVIEW GRADING TESTING<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 7 INTERVIEW GRADING SCORE">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/assign/view.php?id=47068"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/assign/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 7 INTERVIEW GRADING SCORE<span class="accesshide " > Assignment</span></span></a>
+                        </li>
+                </ul>
+                <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none active" data-toggle="collapse" data-target="#activity-submenu-15">
+                    <div class="ml-0">
+                        <div class="media">
+                            <span class="media-body">13 April - 19 April<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                            <span class="media-left">
+                                15
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <ul class="collapse p-0 show sub-menu m-0" id="activity-submenu-15" data-parent="#activiy-nav">
+                        <li class="list-group-item activity    p-0" title="Class36-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=47017"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class36-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Class36-37-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=47063"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class36-37-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Class36-37-38-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=47109"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class36-37-38-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="clickers-2020-04-17">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=47115"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">clickers-2020-04-17<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="All Files for Lab Week 14">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/folder/view.php?id=46957"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/folder/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">All Files for Lab Week 14<span class="accesshide " > Folder</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Lab Week 14 Participation">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/assign/view.php?id=46896"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/assign/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Lab Week 14 Participation<span class="accesshide " > Assignment</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 8 WRITEUP">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=47121"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 8 WRITEUP<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 8 SUBMISSION">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=47120"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Homework 8 SUBMISSION<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Homework 8 SUBMISSION (copy)">
+                          
+                        </li>
+                        <li class="list-group-item activity active   p-0" title="ProspectiveStudentData.csv">
+                          <a class="" onclick="window.open(&#039;https://moodle.cs.colorado.edu/mod/resource/view.php?id=47188&amp;redirect=1&#039;, &#039;&#039;, &#039;width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes&#039;); return false;" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=47188"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/spreadsheet-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">ProspectiveStudentData.csv<span class="accesshide " > File</span></span></a>
+                        </li>
+                </ul>
+                <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none " data-toggle="collapse" data-target="#activity-submenu-16">
+                    <div class="ml-0">
+                        <div class="media">
+                            <span class="media-body">20 April - 26 April<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                            <span class="media-left">
+                                16
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <ul class="collapse p-0  sub-menu m-0" id="activity-submenu-16" data-parent="#activiy-nav">
+                        <li class="list-group-item activity    p-0" title="Class39-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=47141"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class39-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Class39-40-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=47209"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class39-40-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Class39-40-41-Notes">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=47231"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Class39-40-41-Notes<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="clickers-2020-04-20">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=47142"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">clickers-2020-04-20<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="AllBeatlesLyrics.txt">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=47123"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/text-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">AllBeatlesLyrics.txt<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="sortdictionary.py">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=47128"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/text-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">sortdictionary.py<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="stop-word-list.txt">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=47122"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/text-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">stop-word-list.txt<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Lab Week 15 Jupyter Notebook">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=47051"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/core/1582816220/f/sourcecode-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Lab Week 15 Jupyter Notebook<span class="accesshide " > File</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Lab Week 15 Participation">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/assign/view.php?id=46897"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/assign/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Lab Week 15 Participation<span class="accesshide " > Assignment</span></span></a>
+                        </li>
+                </ul>
+                <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none " data-toggle="collapse" data-target="#activity-submenu-17">
+                    <div class="ml-0">
+                        <div class="media">
+                            <span class="media-body">27 April - 3 May<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                            <span class="media-left">
+                                17
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <ul class="collapse p-0  sub-menu m-0" id="activity-submenu-17" data-parent="#activiy-nav">
+                        <li class="list-group-item activity    p-0" title="Python Posttest">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/quiz/view.php?id=47268"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/quiz/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Python Posttest<span class="accesshide " > Quiz</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Teach Shamika A Thing 2">
+                          <div class=" dimmed dimmed_text"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/scheduler/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Teach Shamika A Thing 2<span class="accesshide " > Scheduler</span></span></div>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Teach Shiva a Thing 2">
+                          <div class=" dimmed dimmed_text"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/scheduler/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Teach Shiva a Thing 2<span class="accesshide " > Scheduler</span></span></div>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Teach Janet A Thing 2">
+                          <a class="" onclick="" href="https://moodle.cs.colorado.edu/mod/scheduler/view.php?id=47131"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/scheduler/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Teach Janet A Thing 2<span class="accesshide " > Scheduler</span></span></a>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Teach Dianna A Thing 2 ">
+                          <div class=" dimmed dimmed_text"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/scheduler/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Teach Dianna A Thing 2 <span class="accesshide " > Scheduler</span></span></div>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Teach Hande A Thing">
+                          <div class=" dimmed dimmed_text"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/scheduler/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Teach Hande A Thing<span class="accesshide " > Scheduler</span></span></div>
+                        </li>
+                        <li class="list-group-item activity    p-0" title="Teach Shanel a Thing 2">
+                          <div class=" dimmed dimmed_text"><img src="https://moodle.cs.colorado.edu/theme/image.php/remui/scheduler/1582816220/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Teach Shanel a Thing 2<span class="accesshide " > Scheduler</span></span></div>
+                        </li>
+                </ul>
+        
+        </nav>
+
+    <div class="site-menubar-footer d-flex align-items-center">
+            <a href="https://moodle.cs.colorado.edu/course/index.php" class="w-100 d-flex align-items-center justify-content-center" data-placement="top" data-toggle="tooltip" data-original-title="Course Archive Page">
+                <span class="fa fa-archive" aria-hidden="true"></span>
+            </a>
+    </div>
+    </div>
+</div>
+<div id="page-wrapper">
+    <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Skip to main content</a>
+</div><script type="text/javascript" src="https://moodle.cs.colorado.edu/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script type="text/javascript" src="https://moodle.cs.colorado.edu/lib/javascript.php/1577740574/lib/javascript-static.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+    <div id="page">
+        <div class="edwiser-notice position-fixed mt-10" style="display: none; z-index: 1500;left: 50%;transform: translateX(-50%);" role="alert">
+        </div>
+        
+            <div class="container">
+            <header id="page-header" class="row"><div class="col-12"><div class="card"><div class="card-body d-flex justify-content-between flex-wrap"><div class='mr-2'><h1 class="page-title font-size-24 mb-0">INFO1201 - Zietz - Computational Reasoning 1</h1><nav role="navigation" aria-label="Navigation bar">
+    <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="https://moodle.cs.colorado.edu/"  >Home</a>
+                </li>
+                <li class="breadcrumb-item">My courses</li>
+                <li class="breadcrumb-item">
+                    <a href="https://moodle.cs.colorado.edu/course/index.php?categoryid=15"  >Spring 2020</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="https://moodle.cs.colorado.edu/course/view.php?id=1294"  title="INFO1201 - Zietz - Computational Reasoning 1">INFO1201-S20</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="https://moodle.cs.colorado.edu/course/view.php?id=1294#section-14"  >13 April - 19 April</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="https://moodle.cs.colorado.edu/mod/resource/view.php?id=47188" aria-current="page" title="File">ProspectiveStudentData.csv</a>
+                </li>
+    </ol>
+</nav></div><div class="page-header-actionss position-relative d-flex ml-1"></div></div></div></div></header>
+        <div id="page-content" class="row pb-3 ">
+            <div id="region-main-box" class="col-12">
+                <section data-region="blocks-column" class="d-print-none page-aside" aria-label="Blocks">
+                </section>
+
+<section id="region-main"  aria-label="Content">
+    <div class="card card-body">
+        <span class="notifications" id="user-notifications"></span>
+        <div role="main"><span id="maincontent"></span><h2>ProspectiveStudentData.csv</h2><div class="resourceworkaround">Click <a href="https://moodle.cs.colorado.edu/pluginfile.php/216525/mod_resource/content/1/ProspectiveStudentData.csv" onclick="window.open('https://moodle.cs.colorado.edu/pluginfile.php/216525/mod_resource/content/1/ProspectiveStudentData.csv', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false;">ProspectiveStudentData.csv</a> link to view the file.</div></div>
+        
+        
+    </div> 
+</section>
+
+            </div>
+        </div>
+    </div>
+    
+    </div>
+    <footer id="page-footer" class="py-3 bg-primary">
+        <div class="floating-buttons page-settings" data-html2canvas-ignore>
+            <button id="gotop" type="button" class=" btn btn-floating btn-primary  d-none align-items-center justify-content-center" data-toggle="tooltip" data-original-title="Go Top" data-placement="left" data-trigger="hover">
+                <i class="fa fa-chevron-up" aria-hidden="true"></i>
+            </button>
+        </div>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row m-0 p-0">
+    
+                    <div class="col-12  text-xs-center">
+                        <div class="py-2 px-1">
+                            <h4 class="card-title mt-1 text-white font-weight-normal font-size-18">Follow Us</h4>
+                            <p class="card-text">
+                                    <a href="https://www.facebook.com/cuengineering/" class="btn btn-icon btn-round social-facebook m-1"><i class="icon fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="https://twitter.com/cuengineering" class="btn btn-icon btn-round social-twitter m-1"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="https://www.linkedin.com/groups/6611491" class="btn btn-icon btn-round social-linkedin m-1"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="footer-bottom row mx-3 px-0 py-2">
+                <div class="site-footer-legal pt-2 col-md-6">
+                    <nav class="nav navbar-nav d-md-none" aria-label="Custom menu">
+                            <ul class="list-unstyled pt-3">
+                                                <li><a href="https://www.colorado.edu" title="CU">CU</a></li>
+                                            <li>
+                                                <ul class="list-unstyled ml-3">
+                                                                    <li><a href="http://engineering.colorado.edu" title="Engineering">Engineering</a></li>
+                                                                    <li><a href="https://www.cs.colorado.edu" title="Computer Science">Computer Science</a></li>
+                                                </ul>
+                                            </li>
+                                                <li>Schedules</li>
+                                            <li>
+                                                <ul class="list-unstyled ml-3">
+                                                                    <li><a href="https://www.colorado.edu/cs/current-students/courses" title="Courses">Courses</a></li>
+                                                                    <li><a href="https://www.colorado.edu/academics/academic-calendar" title="Academic Calendar">Academic Calendar</a></li>
+                                                </ul>
+                                            </li>
+                            </ul>
+                    </nav>
+                    <a href="0"></a>
+                </div>
+                <div class="site-footer-right pt-2 col-md-6 text-right">
+                    <div class="logininfo">You are logged in as <a href="https://moodle.cs.colorado.edu/user/profile.php?id=8961" title="View profile">Jack Driscoll</a> (<a href="https://moodle.cs.colorado.edu/login/logout.php?sesskey=ktU76j7adQ">Log out</a>)</div>
+                    <div class="tool_usertours-resettourcontainer"></div>
+                    <div class="tool_dataprivacy"><a href="https://moodle.cs.colorado.edu/admin/tool/dataprivacy/summary.php">Data retention summary</a></div><a href="https://download.moodle.org/mobile?version=2019052003&amp;lang=en&amp;iosappid=633359593&amp;androidappid=com.moodle.moodlemobile">Get the mobile app</a>
+                </div>
+            </div>
+            <div id="course-footer"></div>
+            
+<a href="mailto:helpcs@colorado.edu"> helpcs@colorado.edu</a><script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://moodle.cs.colorado.edu/lib/requirejs.php/1577740574/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://moodle.cs.colorado.edu/lib/javascript.php/1577740574/lib/jquery/jquery-3.2.1.min',
+        jqueryui: 'https://moodle.cs.colorado.edu/lib/javascript.php/1577740574/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://moodle.cs.colorado.edu/lib/javascript.php/1577740574/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="https://moodle.cs.colorado.edu/lib/javascript.php/1577740574/lib/requirejs/require.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.util.js_pending("core/first");require(['core/first'], function() {
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://moodle.cs.colorado.edu/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage("en",{
+ "Audio Player": "Audio Player",
+ "Video Player": "Video Player",
+ "Play": "Play",
+ "Pause": "Pause",
+ "Replay": "Replay",
+ "Current Time": "Current Time",
+ "Duration Time": "Duration Time",
+ "Remaining Time": "Remaining Time",
+ "Stream Type": "Stream Type",
+ "LIVE": "LIVE",
+ "Loaded": "Loaded",
+ "Progress": "Progress",
+ "Progress Bar": "Progress Bar",
+ "progress bar timing: currentTime={1} duration={2}": "{1} of {2}",
+ "Fullscreen": "Fullscreen",
+ "Non-Fullscreen": "Non-Fullscreen",
+ "Mute": "Mute",
+ "Unmute": "Unmute",
+ "Playback Rate": "Playback Rate",
+ "Subtitles": "Subtitles",
+ "subtitles off": "subtitles off",
+ "Captions": "Captions",
+ "captions off": "captions off",
+ "Chapters": "Chapters",
+ "Descriptions": "Descriptions",
+ "descriptions off": "descriptions off",
+ "Audio Track": "Audio Track",
+ "Volume Level": "Volume Level",
+ "You aborted the media playback": "You aborted the media playback",
+ "A network error caused the media download to fail part-way.": "A network error caused the media download to fail part-way.",
+ "The media could not be loaded, either because the server or network failed or because the format is not supported.": "The media could not be loaded, either because the server or network failed or because the format is not supported.",
+ "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.",
+ "No compatible source was found for this media.": "No compatible source was found for this media.",
+ "The media is encrypted and we do not have the keys to decrypt it.": "The media is encrypted and we do not have the keys to decrypt it.",
+ "Play Video": "Play Video",
+ "Close": "Close",
+ "Close Modal Dialog": "Close Modal Dialog",
+ "Modal Window": "Modal Window",
+ "This is a modal window": "This is a modal window",
+ "This modal can be closed by pressing the Escape key or activating the close button.": "This modal can be closed by pressing the Escape key or activating the close button.",
+ ", opens captions settings dialog": ", opens captions settings dialog",
+ ", opens subtitles settings dialog": ", opens subtitles settings dialog",
+ ", opens descriptions settings dialog": ", opens descriptions settings dialog",
+ ", selected": ", selected",
+ "captions settings": "captions settings",
+ "subtitles settings": "subititles settings",
+ "descriptions settings": "descriptions settings",
+ "Text": "Text",
+ "White": "White",
+ "Black": "Black",
+ "Red": "Red",
+ "Green": "Green",
+ "Blue": "Blue",
+ "Yellow": "Yellow",
+ "Magenta": "Magenta",
+ "Cyan": "Cyan",
+ "Background": "Background",
+ "Window": "Window",
+ "Transparent": "Transparent",
+ "Semi-Transparent": "Semi-Transparent",
+ "Opaque": "Opaque",
+ "Font Size": "Font Size",
+ "Text Edge Style": "Text Edge Style",
+ "None": "None",
+ "Raised": "Raised",
+ "Depressed": "Depressed",
+ "Uniform": "Uniform",
+ "Dropshadow": "Dropshadow",
+ "Font Family": "Font Family",
+ "Proportional Sans-Serif": "Proportional Sans-Serif",
+ "Monospace Sans-Serif": "Monospace Sans-Serif",
+ "Proportional Serif": "Proportional Serif",
+ "Monospace Serif": "Monospace Serif",
+ "Casual": "Casual",
+ "Script": "Script",
+ "Small Caps": "Small Caps",
+ "Reset": "Reset",
+ "restore all settings to the default values": "restore all settings to the default values",
+ "Done": "Done",
+ "Caption Settings Dialog": "Caption Settings Dialog",
+ "Beginning of dialog window. Escape will cancel and close the window.": "Beginning of dialog window. Escape will cancel and close the window.",
+ "End of dialog window.": "End of dialog window."
+});
+
+    });
+});;
+function legacy_activity_onclick_handler_1(e) { e.halt(); window.open('https://moodle.cs.colorado.edu/mod/resource/view.php?id=47188&redirect=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+
+require(['jquery', 'message_popup/notification_popover_controller'], function($, controller) {
+    var container = $('#nav-notification-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+
+require(['theme_remui/loader']);
+require(['theme_remui/drawer'], function(mod) {
+    mod.init();
+});
+;
+
+require(['theme_remui/loader', 'theme_remui/TimeCircles'], function (loader, TimeCircles) {
+    Breakpoints();
+
+    // quiz time circles for timed quizzes
+    jQuery("#quiztimer").TimeCircles({
+        time: {
+            Days: {
+                show: false
+            },
+            Hours: {
+                color: "#3c8dbc"
+            },
+            Minutes: {
+                color: "#00a65a"
+            },
+            Seconds: {
+                color: "#f56954"
+            }
+        },
+        bg_width: 0.9,
+        fg_width: 0.1,
+        circle_bg_color: "#797D82",
+        number_size: 0.24,
+        text_size: 0.11,
+        refresh_interval: 1,
+        animation_interval: "ticks"
+    }).addListener(quizTimeEllapsed);
+
+    // listner for quiz timer
+    function quizTimeEllapsed(unit, value, total) {
+        if (total <= 0) {
+            jQuery(this).fadeOut('medium').replaceWith('<div style="text-align: center; background: rgba(0, 0, 0, 0.13); border-radius: 5px; height: 80px; line-height: 80px; font-size: 18px; color: red;">' + M.util.get_string('timesup', 'quiz') + '</div>');
+        }
+    }
+});
+;
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-21564981-2', {'siteSpeedSampleRate': 50});
+    ga('set', 'anonymizeIp', true);
+    ga('send', {'hitType' : 'pageview',
+                'page' : '/Spring+2020/INFO1201+-+Zietz+-+Computational+Reasoning+1/resource/ProspectiveStudentData.csv',
+                'title' : 'INFO1201 - Zietz - Computational Reasoning 1'
+                });
+;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(216525, []); M.util.js_complete('core/notification');});;
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
+M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","cancel":"Cancel","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","confirmation":"Confirmation"},"theme_remui":{"sidebarpinned":"Sidebar pinned.","sidebarunpinned":"Sidebar unpinned.","pinsidebar":"Pin sidebar","unpinsidebar":"Unpin sidebar"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"MathJax.Hub.Config({\r\n    config: [\"Accessible.js\", \"Safe.js\"],\r\n    errorSettings: { message: [\"!\"] },\r\n    skipStartupTypeset: true,\r\n    messageStyle: \"none\"\r\n});\r\n","lang":"en"});
+});
+M.util.help_popups.setup(Y);
+ M.util.js_pending('random5eac45bf797365'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random5eac45bf797365'); });
+})();
+//]]>
+</script>
+
+        </div>
+    </footer>
+</div>
+</body>
+</html>
